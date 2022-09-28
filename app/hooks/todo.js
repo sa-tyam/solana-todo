@@ -142,7 +142,7 @@ export function useTodo() {
           )
     }
 
-
+    // adding comment to deploy on netlify
     const incompleteTodos = useMemo(() => todos.filter((todo) => !todo.account.marked), [todos])
     const completedTodos = useMemo(() => todos.filter((todo) => todo.account.marked), [todos])
 
